@@ -1,0 +1,12 @@
+<header>
+    <h1>{{ shop.name | upcase}}</h1>
+
+    <!-- Header menu -->
+    <ul>
+        {% for link in linklists.main-menu.links -%}
+            <li>{{ link.title | link_to: link.url }}</li>
+        {%- endfor %}
+    </ul>
+
+    
+</header>
