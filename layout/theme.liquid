@@ -1,0 +1,7 @@
+<html>
+    <head>
+        {{ 'style.css' | asset_url | stylesheet_tag }}
+        {{ content_for_header }}
+    </head>
+    <body>{{ content_for_layout }}</body>
+</html>
