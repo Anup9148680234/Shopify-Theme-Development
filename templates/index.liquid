@@ -1,12 +1,7 @@
+
 <h2>{{ collections['frontppage'].title }}</h2>
 
 {% for product in collections['frontpage'].products %}
-    <div>
-        <a href="{{ product.url }}">
-            <img src="{{ product.featured_media | image_url: width:400}}" />
-            <h3>{{ product.title }}</h3>
-            <p>{{ product.price }}</p>
-            {{- product.title | link_to: product.url }}
-        </a>
-    </div>
+    {% render 'product-item', product: product   %}
 {% endfor %}
+
