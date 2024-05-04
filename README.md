@@ -2,15 +2,8 @@
 
 This GitHub repository hosts a versatile Shopify theme template, designed to expedite the process of creating captivating online stores. With a robust foundation and streamlined structure, this theme template offers a comprehensive starting point for developers and designers alike.
 
-## Key Features:
+## Key Features & Benefits:
 - **Modular Design**: The theme is built with a modular architecture, allowing for easy customization and extension.
-- **Responsive Layout**: Ensures optimal viewing experience across a wide range of devices and screen sizes.
-- **Customizable Styles**: Easily tailor the appearance of your store to match your brand identity with flexible styling options.
-- **SEO Optimization**: Built-in SEO best practices to help improve your store's visibility and rankings in search engines.
-- **Performance Optimized**: Lightweight codebase and optimized assets for fast page load times and smooth user experience.
-- **Documentation**: Comprehensive documentation to guide you through setup, customization, and deployment.
-
-## Benefits:
 - **Efficiency**: Jumpstart your Shopify store development process and reduce time-to-market.
 - **Flexibility**: Adapt the theme template to suit various industries, niches, and branding requirements.
 - **Scalability**: Easily scale your store as your business grows, with built-in support for additional features and functionalities.
@@ -21,19 +14,17 @@ Whether you're launching a new online venture or revamping an existing store, th
 ## Get Started
 Clone or fork this repository to kickstart your next Shopify project today!
 
-# Getting Started with Theme Development from Scratch
+## Installation 
 
----
-
-## Step 1: Install Theme Kit
+### Step 1: Install Theme Kit
 `choco install themekit`
 
-## Step 2: Get a Theme password
+### Step 2: Get a Theme password
 After you install Theme Kit, you need to get a Theme password to connect Theme Kit to your store and manage your template files.
 The store owner or a staff member with the appropriate permissions can create a Theme password for you using the Theme Access app.
 
-## Step 3: Connect to an existing theme, i.e this theme should be uploaded on your admin.shopify.com first
+### Step 3: Connect to an existing theme, i.e this theme should be uploaded on your admin.shopify.com first
 `theme configure -s [Shop Name] -t [ShopID] -p [Access Key]`
 
-## Step 4: Watch the changes on live theme
+### Step 4: Watch the changes on live theme
 `theme watch --allow-live`
