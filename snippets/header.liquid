@@ -1,4 +1,4 @@
-<header>
+<header >
     <h1>{{ shop.name | upcase}}</h1>
 
     <!-- Header menu -->
@@ -9,9 +9,11 @@
     </ul>
 
      <!-- Search-->
-     <form action="/search">
-     <input type="search" name="q">
-     <button type="submit">Search</button>
-     </form>
+     {% if settings.show_search %}
+        <form action="/search">
+        <input type="search" name="q">
+        <button type="submit">Search</button>
+        </form>
+     {% endif %}
     
 </header>

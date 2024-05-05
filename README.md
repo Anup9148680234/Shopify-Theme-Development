@@ -23,8 +23,12 @@ Clone or fork this repository to kickstart your next Shopify project today!
 After you install Theme Kit, you need to get a Theme password to connect Theme Kit to your store and manage your template files.
 The store owner or a staff member with the appropriate permissions can create a Theme password for you using the Theme Access app.
 
-### Step 3: Connect to an existing theme, i.e this theme should be uploaded on your admin.shopify.com first
+### Step 3: Upload this theme .zip file on your Shopify Admin
+Go to your Admin page of the dev store / prod store and upload this .zip file
+And Publish this Theme,  in order to customize this theme as per your needs.
+
+### Step 4: Connect to an existing theme 
 `theme configure -s [Shop Name] -t [ShopID] -p [Access Key]`
 
-### Step 4: Watch the changes on live theme
+### Step 5: Watch the changes on live theme
 `theme watch --allow-live`
